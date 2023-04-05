@@ -16,25 +16,102 @@
   </head>
   <body>
     <div class="container">
-      <!-- Section 1: Title -->
-      <h2 class="title">Covid-19 Tracker</h2>
+      <div class="card" id="myBox">
+        <div class="card-body">
+          <!-- Section 1: Title -->
+          <h2 class="title">Covid-19 Tracker</h2>
 
-      <!-- Section 2: Search Bar -->
-      <nav class="navbar bg-light">
-        <div class="container">
-          <form class="d-flex" id="searchBar" role="search">
-            <input
-              class="form-control me-3"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          <!-- Section 2: Search Bar -->
+          <nav class="navbar bg-light">
+            <div class="container">
+              <form class="d-flex" id="searchBar" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+
+          <!-- Section 3: Data Visualization -->
+          <div class="row" id="row1">
+            <div class="col-md-4">
+              <div class="card ms-auto" id="cardData">
+                <div class="card-body">
+                  <h5 class="card-title">Active Cases</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mx-auto" id="cardData">
+                <div class="card-body">
+                  <h5 class="card-title">New Cases</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" id="cardData">
+                <div class="card-body">
+                  <h5 class="card-title">Recovered Cases</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" id="row2">
+            <div class="col-md-4">
+              <div class="card ms-auto" id="cardData">
+                <div class="card-body">
+                  <h5 class="card-title">Total Cases</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mx-auto" id="cardData">
+                <div class="card-body">
+                  <h5 class="card-title">Total Deaths</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" id="cardData">
+                <div class="card-body">
+                  <h5 class="card-title">Total Recovered</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </nav>
+      </div>
     </div>
     <!-- JavaScript Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
