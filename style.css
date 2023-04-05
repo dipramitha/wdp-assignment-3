@@ -4,8 +4,10 @@
 }
 
 #myBox {
-    width: auto;
-    height: auto;
+    width: 47rem;
+    height: 37.5rem;
+    background-color: #bfd7dd; 
+    border-color: #bfd7dd; 
 }
 
 .title {
@@ -16,6 +18,16 @@
 #searchBar {
     margin-right: auto;
     margin-left: auto;
+}
+
+#row1 {
+    padding-top: 3px;
+    padding-bottom: 15px;
+}
+
+#row2 {
+    padding-top: 13px;
+    padding-bottom: 15px;
 }
 
 #cardData {
