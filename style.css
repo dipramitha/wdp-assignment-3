@@ -1,0 +1,10 @@
+.title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#searchBar {
+    margin-right: auto;
+    margin-left: auto;
+}
