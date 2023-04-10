@@ -6,13 +6,14 @@
 #myBox {
     width: 47rem;
     height: 37.5rem;
-    background-color: #bfd7dd; 
-    border-color: #bfd7dd; 
+    background-color: rgb(137, 139, 161); 
+    border-color: rgb(137, 139, 161); 
 }
 
 .title {
     padding-top: 10px;
     text-align: center;
+    color: #ffff;
 }
 
 #searchBar {
@@ -23,11 +24,13 @@
 #row1 {
     padding-top: 3px;
     padding-bottom: 15px;
+    color: #ffff;
 }
 
 #row2 {
     padding-top: 13px;
     padding-bottom: 15px;
+    color: #ffff;
 }
 
 #cardData {
@@ -36,6 +39,6 @@
     text-align: center;
     font-weight: bold;
     font-size: 15pt;
-    background-color: rgb(109, 140, 191);
+    background-color: rgb(19, 23, 60);
     
 }
