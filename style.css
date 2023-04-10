@@ -16,7 +16,7 @@
     color: #ffff;
 }
 
-#searchBar {
+.d-flex {
     margin-right: auto;
     margin-left: auto;
 }
@@ -39,6 +39,6 @@
     text-align: center;
     font-weight: bold;
     font-size: 15pt;
-    background-color: rgb(19, 23, 60);
+    background-color: #13173c;
     
 }

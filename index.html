@@ -35,16 +35,17 @@
           <!-- Section 2: Search Bar -->
           <nav class="navbar">
             <div class="container">
-              <form class="d-flex" id="searchBar" role="search">
+              <form class="d-flex" role="search">
                 <input
+                  id="inputCountry"
                   class="form-control me-2"
                   type="search"
-                  placeholder="Enter a country name"
+                  placeholder="Enter a country name ..."
                   aria-label="Search"
                 />
-                <button class="btn btn-light" type="submit">
+                <button onclick="getCovidData()" class="btn btn-light">
                   <i
-                    class="fa-solid fa-magnifying-glass-location fa-xl"
+                    class="fa-brands fa-searchengin fa-xl"
                     style="color: #13173c"
                   ></i>
                 </button>
@@ -62,7 +63,7 @@
                     style="color: #ffffff"
                   ></i>
                   <h5 class="card-title">Active Cases</h5>
-                  <p class="card-text">...</p>
+                  <p class="card-text"><span id="activeCases"></span></p>
                 </div>
               </div>
             </div>
@@ -71,7 +72,7 @@
                 <div class="card-body">
                   <i class="fa-solid fa-plus fa-lg" style="color: #ffffff"></i>
                   <h5 class="card-title">New Cases</h5>
-                  <p class="card-text">...</p>
+                  <p class="card-text"><span id="newCases"></span></p>
                 </div>
               </div>
             </div>
@@ -80,7 +81,7 @@
                 <div class="card-body">
                   <i class="fa-solid fa-check fa-lg" style="color: #ffffff"></i>
                   <h5 class="card-title">Recovered Cases</h5>
-                  <p class="card-text">...</p>
+                  <p class="card-text"><span id="recoveredCases"></span></p>
                 </div>
               </div>
             </div>
@@ -95,7 +96,7 @@
                     style="color: #ffffff"
                   ></i>
                   <h5 class="card-title">Total Cases</h5>
-                  <p class="card-text">...</p>
+                  <p class="card-text"><span id="totalCases"></span></p>
                 </div>
               </div>
             </div>
@@ -107,7 +108,7 @@
                     style="color: #ffffff"
                   ></i>
                   <h5 class="card-title">Total Deaths</h5>
-                  <p class="card-text">...</p>
+                  <p class="card-text"><span id="totalDeaths"></span></p>
                 </div>
               </div>
             </div>
@@ -119,7 +120,7 @@
                     style="color: #ffffff"
                   ></i>
                   <h5 class="card-title">Total Tests</h5>
-                  <p class="card-text">...</p>
+                  <p class="card-text"><span id="totalTests"></span></p>
                 </div>
               </div>
             </div>
@@ -137,5 +138,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <!-- JavaScript Index -->
+    <script src="index.js"></script>
   </body>
 </html>
