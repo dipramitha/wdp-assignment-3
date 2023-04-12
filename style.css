@@ -6,14 +6,16 @@
 #myBox {
     width: 47rem;
     height: 37.5rem;
-    background-color: rgb(192, 194, 222); 
-    border-color: rgb(192, 194, 222); 
+    background-color: #f2f2f2; 
+    border-color: #f2f2f2;
 }
 
 .title {
     padding-top: 10px;
     text-align: center;
-    color: #ffff;
+    text-shadow: 5px 5px 10px rgb(190, 190, 190);
+    color: black;
+    font-family: 'Domine', serif;
 }
 
 .d-flex {
@@ -24,21 +26,67 @@
 #row1 {
     padding-top: 3px;
     padding-bottom: 15px;
-    color: #ffff;
+    color: black;
+    font-family: 'Domine', serif;
 }
 
 #row2 {
     padding-top: 13px;
     padding-bottom: 15px;
-    color: #ffff;
+    color: black;
+    font-family: 'Domine', serif;
 }
 
-#cardData {
+#cardActive {
     width: 13rem;
     height: 11rem;
     text-align: center;
     font-weight: bold;
     font-size: 15pt;
-    background-color: #13173c;
-    
+    background-color: #B5D5C5;
+}
+
+#cardNew {
+    width: 13rem;
+    height: 11rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #E4D0D0;
+}
+
+#cardRecovered {
+    width: 13rem;
+    height: 11rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #A0C3D2;
+}
+
+#cardCases {
+    width: 13rem;
+    height: 11rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #D3CEDF;
+}
+
+#cardDeaths {
+    width: 13rem;
+    height: 11rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #B9CEEB;
+}
+
+#cardTests {
+    width: 13rem;
+    height: 11rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #E4DCCF;
 }
