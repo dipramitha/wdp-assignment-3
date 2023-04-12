@@ -39,11 +39,10 @@
                 <input
                   id="inputCountry"
                   class="form-control me-2"
-                  type="search"
+                  type="text"
                   placeholder="Enter a country name ..."
-                  aria-label="Search"
                 />
-                <button onclick="getCovidData()" class="btn btn-light">
+                <button id="buttonCountry" class="btn btn-light">
                   <i
                     class="fa-brands fa-searchengin fa-xl"
                     style="color: #13173c"
@@ -63,7 +62,7 @@
                     style="color: #ffffff"
                   ></i>
                   <h5 class="card-title">Active Cases</h5>
-                  <p class="card-text"><span id="activeCases"></span></p>
+                  <span id="activeCases"></span>
                 </div>
               </div>
             </div>
@@ -72,7 +71,7 @@
                 <div class="card-body">
                   <i class="fa-solid fa-plus fa-lg" style="color: #ffffff"></i>
                   <h5 class="card-title">New Cases</h5>
-                  <p class="card-text"><span id="newCases"></span></p>
+                  <span id="newCases"></span>
                 </div>
               </div>
             </div>
@@ -81,7 +80,7 @@
                 <div class="card-body">
                   <i class="fa-solid fa-check fa-lg" style="color: #ffffff"></i>
                   <h5 class="card-title">Recovered Cases</h5>
-                  <p class="card-text"><span id="recoveredCases"></span></p>
+                  <span id="recoveredCases"></span>
                 </div>
               </div>
             </div>
@@ -96,7 +95,7 @@
                     style="color: #ffffff"
                   ></i>
                   <h5 class="card-title">Total Cases</h5>
-                  <p class="card-text"><span id="totalCases"></span></p>
+                  <span id="totalCases"></span>
                 </div>
               </div>
             </div>
@@ -108,7 +107,7 @@
                     style="color: #ffffff"
                   ></i>
                   <h5 class="card-title">Total Deaths</h5>
-                  <p class="card-text"><span id="totalDeaths"></span></p>
+                  <span id="totalDeaths"></span>
                 </div>
               </div>
             </div>
@@ -120,7 +119,7 @@
                     style="color: #ffffff"
                   ></i>
                   <h5 class="card-title">Total Tests</h5>
-                  <p class="card-text"><span id="totalTests"></span></p>
+                  <span id="totalTests"></span>
                 </div>
               </div>
             </div>
