@@ -1,6 +1,7 @@
 const myInput = document.getElementById('inputCountry')
 const myButton = document.getElementById('buttonCountry')
-myButton.addEventListener('click', function () {
+myButton.addEventListener('click', function (event) {
+  event.preventDefault()
   const countries = myInput.value
 
   fetch(`https://covid-193.p.rapidapi.com/statistics?country=${countries}`, {
