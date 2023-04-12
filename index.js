@@ -7,7 +7,7 @@ myButton.addEventListener('click', function (event) {
   fetch(`https://covid-193.p.rapidapi.com/statistics?country=${countries}`, {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '1fb84f09cemshbc864e1330b4786p122d2fjsnedb135330e4d',
+      'X-RapidAPI-Key': '',
       'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
     }
   })
