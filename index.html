@@ -24,6 +24,7 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- CSS Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,7 +50,11 @@
                   type="text"
                   placeholder="Enter a country name ..."
                 />
-                <button id="buttonCountry" class="btn btn-light">
+                <button
+                  id="buttonCountry"
+                  class="btn btn-light"
+                  onclick="getCovidData()"
+                >
                   <i
                     class="fa-brands fa-searchengin fa-xl"
                     style="color: #13173c"
