@@ -23,6 +23,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -55,11 +62,11 @@
           <!-- Section 3: Data Visualization -->
           <div class="row" id="row1">
             <div class="col-md-4">
-              <div class="card ms-auto" id="cardData">
+              <div class="card ms-auto" id="cardActive">
                 <div class="card-body">
                   <i
                     class="fa-solid fa-chart-line fa-lg"
-                    style="color: #ffffff"
+                    style="color: black"
                   ></i>
                   <h5 class="card-title">Active Cases</h5>
                   <span id="activeCases"></span>
@@ -67,18 +74,18 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mx-auto" id="cardData">
+              <div class="card mx-auto" id="cardNew">
                 <div class="card-body">
-                  <i class="fa-solid fa-plus fa-lg" style="color: #ffffff"></i>
+                  <i class="fa-solid fa-plus fa-lg" style="color: black"></i>
                   <h5 class="card-title">New Cases</h5>
                   <span id="newCases"></span>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card" id="cardData">
+              <div class="card" id="cardRecovered">
                 <div class="card-body">
-                  <i class="fa-solid fa-check fa-lg" style="color: #ffffff"></i>
+                  <i class="fa-solid fa-check fa-lg" style="color: black"></i>
                   <h5 class="card-title">Recovered Cases</h5>
                   <span id="recoveredCases"></span>
                 </div>
@@ -88,11 +95,11 @@
 
           <div class="row" id="row2">
             <div class="col-md-4">
-              <div class="card ms-auto" id="cardData">
+              <div class="card ms-auto" id="cardCases">
                 <div class="card-body">
                   <i
                     class="fa-solid fa-bed-pulse fa-lg"
-                    style="color: #ffffff"
+                    style="color: black"
                   ></i>
                   <h5 class="card-title">Total Cases</h5>
                   <span id="totalCases"></span>
@@ -100,11 +107,11 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card mx-auto" id="cardData">
+              <div class="card mx-auto" id="cardDeaths">
                 <div class="card-body">
                   <i
                     class="fa-solid fa-skull-crossbones fa-lg"
-                    style="color: #ffffff"
+                    style="color: black"
                   ></i>
                   <h5 class="card-title">Total Deaths</h5>
                   <span id="totalDeaths"></span>
@@ -112,11 +119,11 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card" id="cardData">
+              <div class="card" id="cardTests">
                 <div class="card-body">
                   <i
                     class="fa-solid fa-vial-circle-check fa-lg"
-                    style="color: #ffffff"
+                    style="color: black"
                   ></i>
                   <h5 class="card-title">Total Tests</h5>
                   <span id="totalTests"></span>
